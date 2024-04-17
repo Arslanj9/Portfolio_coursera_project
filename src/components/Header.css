@@ -23,12 +23,18 @@
     margin-right: 0;
   }
   
-  .horizontal-header nav ul li a {
+  .horizontal-header nav ul li button {
+    color: #fff;
+    background-color: #333;
+  }
+
+  .social-links {
+    margin-top: 8px;
+  }
+
+  .social-links ul li a {
     color: #fff;
     text-decoration: none;
   }
   
-  .horizontal-header nav ul li a:hover {
-    text-decoration: underline;
-  }
   

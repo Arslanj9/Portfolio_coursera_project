@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css'; 
 
-const Projects = () => {
+const Projects = ({ id }) => {
 
   // Sample data for featured projects
   const projects = [
@@ -36,7 +36,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="featured-projects">
+    <section id={id} className="featured-projects">
       <div className="projects-container">
         {projects.map(project => (
           <div className="project-card" key={project.id}>

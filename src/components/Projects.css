@@ -1,51 +1,52 @@
 .featured-projects {
-    padding: 50px 0;
-  }
-  
-  .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-  }
-  
-  .project-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project-card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .project-info {
-    padding: 20px;
-  }
-  
-  .project-info h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .project-info p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .project-info a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .project-info a:hover {
-    background-color: #555;
-  }
-  
+  padding: 50px 20px; /* Add padding from left and right sides */
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr)); /* Make the cards smaller */
+  gap: 30px;
+  margin: 0 auto; /* Center the grid horizontally */
+  max-width: 1000px; /* Add a max-width to the container */
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 18px; /* Make the heading a bit smaller */
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 14px; /* Make the paragraph text smaller */
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.project-info a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px; /* Reduce padding */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-info a:hover {
+  background-color: #555;
+}
